@@ -1,0 +1,13 @@
+prefix=D:/ML_Project_complete/py_env/Library
+exec_prefix=D:/ML_Project_complete/py_env/Library
+libdir=D:/ML_Project_complete/py_env/Library/lib
+sharedlibdir=D:/ML_Project_complete/py_env/Library/lib
+includedir=D:/ML_Project_complete/py_env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
